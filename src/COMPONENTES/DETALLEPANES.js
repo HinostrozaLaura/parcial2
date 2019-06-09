@@ -2,7 +2,7 @@ import React from 'react';
 const DETALLEPANES = ({nombre,des,costo,imge}) =>{
 
     return(
-        <div className="panes">
+        <div className="Panes">
         <h3>Nombre del Pan: {nombre}</h3>
         <img style ={{with:100 ,height:200 } }src={imge}></img>
         <hr/>
